@@ -1,7 +1,7 @@
 'use strict'
 
-const Emitter = require('numbat-emitter')
-const procMetrics = require('numbat-process')
+const Emitter = require('@npm/numbat-emitter')
+const procMetrics = require('@npm/numbat-process')
 const { kReplyStartTime } = require('fastify/lib/symbols')
 
 const defaultInterval = 1000 * 30 // 30 seconds
